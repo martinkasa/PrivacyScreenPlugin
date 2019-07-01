@@ -1,7 +1,32 @@
 {
-  "name": "cordova-plugin-privacyscreen",
-  "version": "0.4.0",
-  "description": "Secures your app from displaying a screenshot in task switchers under Android and iOS. Keeps sensitive information private.",
+  "_from": "git+https://github.com/martinkasa/PrivacyScreenPlugin.git",
+  "_id": "cordova-plugin-privacyscreen@0.4.0",
+  "_inBundle": false,
+  "_location": "/cordova-plugin-privacyscreen",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/martinkasa/PrivacyScreenPlugin.git",
+    "rawSpec": "git+https://github.com/martinkasa/PrivacyScreenPlugin.git",
+    "saveSpec": "git+https://github.com/martinkasa/PrivacyScreenPlugin.git",
+    "fetchSpec": "https://github.com/martinkasa/PrivacyScreenPlugin.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/martinkasa/PrivacyScreenPlugin.git#d5a1e5fd90f7416d90014b6131ba3090127f7b22",
+  "_spec": "git+https://github.com/martinkasa/PrivacyScreenPlugin.git",
+  "_where": "/Users/mka/whitestein/mobile/src",
+  "author": {
+    "name": "Tommy-Carlos Willaims",
+    "email": "tommy@devgeeks.org"
+  },
+  "bugs": {
+    "url": "https://github.com/devgeeks/PrivacyScreenPlugin/issues"
+  },
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-privacyscreen",
     "platforms": [
@@ -9,10 +34,9 @@
       "ios"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/devgeeks/PrivacyScreenPlugin.git"
-  },
+  "deprecated": false,
+  "description": "Secures your app from displaying a screenshot in task switchers under Android and iOS. Keeps sensitive information private.",
+  "homepage": "https://github.com/devgeeks/PrivacyScreenPlugin#readme",
   "keywords": [
     "privacy",
     "cordova",
@@ -20,10 +44,11 @@
     "cordova-android",
     "cordova-ios"
   ],
-  "author": "Tommy-Carlos Willaims <tommy@devgeeks.org>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/devgeeks/PrivacyScreenPlugin/issues"
+  "name": "cordova-plugin-privacyscreen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devgeeks/PrivacyScreenPlugin.git"
   },
-  "homepage": "https://github.com/devgeeks/PrivacyScreenPlugin#readme"
+  "version": "0.4.0"
 }
